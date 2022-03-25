@@ -12,7 +12,7 @@ main{
   flex-direction: column;
   margin-left: 300px;
   margin-right: 300px;
-  border-radius: 15px;
+  border-radius: 16px;
 }
 .titleName{
   font-family: fantasy;
