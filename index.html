@@ -4,20 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>NIM</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
-  <h1> JOGO NIM </h1>
-         
+  <main>
+  <div class="titleName">
+    <h1> JOGO NIM </h1>
+  </div>       
 <!-- caixa de texto para receber o valor de vez -->
 
+  <div class="text">
   <form>
     <label id="labelJogador">Player 2</label>
     <input type="text" id="vez" class="caixa">
 
   </form>
-
+  </div>
 <!-- script para pegar o valor da caixa de texto-->
         <script >
                 document.getElementById('vez');
@@ -25,15 +28,8 @@
 
 
 <!-- js do botão ENVIAR-->
-              <button type="button" onclick="jogadaPlayer()">Enviar</button>
+              <button class="button" type="button" onclick="jogadaPlayer()">Enviar</button>
 
-
-<!-- js do botão RENINICIAR-->
-    <form>
-        <a href="index.html">
-         <input type="button" value="Reiniciar">
-        </a>
-    </form>
 
 
 
@@ -45,8 +41,14 @@
             <script >
                 document.getElementById('veez');
             </script>
+    
 
-
+<!-- js do botão RENINICIAR-->
+    <form>
+        <a href="index.html">
+         <input type="button" value="Reiniciar">
+        </a>
+    </form>
 
 
 <!-- modal para avisar que o botão funciona -->
@@ -60,7 +62,7 @@
     <!-- testar para ver se passa o valor da jogada -->
 
     </div>
-
+</main>
 
     <script src="js/scrip.js"></script>
   </body>
