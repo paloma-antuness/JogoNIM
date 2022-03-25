@@ -1,0 +1,32 @@
+body{
+
+	background-image: url("memenazare.jpg");
+
+}
+
+#radio{
+
+	align-items: center;
+	flexbox:  center;
+	
+}
+
+
+.salvenc{
+
+	align-items: center;
+	flexbox: center;
+
+}
+#labelJogador{
+	font-size: 25px;
+	margin-left: 3vh;
+	margin-right: 2vh;
+}
+
+#veez{
+	font-size: 40px;
+	margin-left: 3vh;
+	margin-right: 2vh;
+}
+
