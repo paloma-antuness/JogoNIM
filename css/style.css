@@ -16,18 +16,20 @@ main{
   text-align: center;
 }
 
+.reiniciar{
+  border-radius: 7px;
+  padding: 4px;
+}
+
 .button{
   border-radius: 7px;
-  text-align: center;
+  padding: 4px;
+  margin:11px;
 }
 
 .text{
   font-family: fantasy;
   text-align: center;
-}
-
-main{
-  background:'Black'
 }
 
 #radio{
