@@ -1,12 +1,9 @@
-
 let numT, jogada;
 let usu1, usu2;
 var vez; //a quantidade de cada jogador
 var vezJogada = 1
 
 vez= document.getElementById("vez");
-
-
 console.log(vez)
 usu1=document.getElementById(usu1);
 usu2=document.getElementById(usu2);
@@ -36,7 +33,6 @@ function jogadaPlayer(){
 	}
 }
 
-
 function limJ(){
 
 		 let lim = document.getElementById("vez").value;
@@ -47,9 +43,6 @@ function limJ(){
 		 alert('Jogue um valor dentro do limite! Tem que ser menor que 21 e maior que 0!');
 		}
 }
-
-
-
 
 function limiteN(){ 
 		
@@ -62,6 +55,3 @@ function limiteN(){
 		}
 
 }
-
-
-

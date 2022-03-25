@@ -1,6 +1,7 @@
 body{
 background-image: url("../img/memenazare.jpg");
 }
+
 main{
   background:rgb(255, 255, 255, 0.1);
   backdrop-filter: blur(11px);
@@ -39,7 +40,6 @@ main{
 
 	align-items: center;
 	flexbox:  center;
-	
 }
 
 .salvenc{
@@ -48,6 +48,7 @@ main{
 	flexbox: center;
 
 }
+
 #labelJogador{
 	font-size: 25px;
 	margin-left: 3vh;
@@ -59,4 +60,3 @@ main{
 	margin-left: 3vh;
 	margin-right: 2vh;
 }
-
