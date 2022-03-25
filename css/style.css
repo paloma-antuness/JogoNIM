@@ -10,6 +10,9 @@ main{
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 15px;
 }
 .titleName{
   font-family: fantasy;
@@ -38,7 +41,6 @@ main{
 	flexbox:  center;
 	
 }
-
 
 .salvenc{
 
